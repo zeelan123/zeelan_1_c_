@@ -6,11 +6,11 @@ int main()
   scanf("%d",&n);
   while(i<=n)
     {
-      sum+=1;
+      sum+=i;
       i++;
       
     }
-printf("sum of first%d natural numbers is %d"\n ")
+printf("sum of first%d natural numbers is %d"\n ",n,sum);
 
 return 0;
 }
